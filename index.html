@@ -46,12 +46,19 @@
     <!-- first section of the page -->
     <main>
         <div class="title">
-            <h1>Effective Solutions<br>for Your Business</h1>
-            <button type="button" class="buttons">Order Service</button>
-            <!-- <div class="modal">
-                <div class="modal-content">
-                    <button type="button">&times;</button>
-                </div> -->
+            <h1>Effective Solutions<br>
+                for Your Business
+            </h1>
+            <button type="button" class="buttons" data-modal-open>Order Service</button>
+            <div class="modal is-hidden" data-modal>
+                <div class="data-modal">
+                    <button type="button" class="data-modal-close" data-modal-close>
+                        <svg>
+                            <use xlink:href="./images/icons.svg#icon-close"></use>
+                        </svg>
+                    </button>
+                </div>
+            </div>    
         </div>
         
     
