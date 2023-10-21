@@ -214,8 +214,9 @@ h1 {
         width: 24px;
         height: 24px;
         border-radius: 50%;
-        /* border-color: transparent; */
+        border: 2px solid rgba(46, 47, 66, 0.40);
         color: var(--NAVY-BLUE,#2E2F42);
+        cursor: pointer;
 }
 
 .data-modal-close { 
@@ -323,7 +324,25 @@ h1 {
         display: block;
 }
 
-.portfolio-marketing:hover .market-image-caption {
+/* .market-list:first-child:hover .market-image-caption {
+        opacity: 1;
+        transform: translateY(0);
+        cursor: pointer;
+} */
+
+.market-image:hover .market-image-caption {
+        opacity: 1;
+        transform: translateY(0);
+        cursor: pointer;
+}
+
+.market-list-1:hover {
+        opacity: 1;
+        transform: translateY(0);
+        cursor: pointer;
+}
+
+.caption-2:hover {
         opacity: 1;
         transform: translateY(0);
         cursor: pointer;
